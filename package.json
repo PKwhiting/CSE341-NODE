@@ -1,26 +1,14 @@
 {
   "name": "cse341-apicourse-code",
   "version": "1.0.0",
-  "description": "code to give to students for the cse341 course",
+  "description": "CSE341 Course",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
-  },
-  "author": "Patten Whiting",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
-  },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
-  "dependencies": {
-    "express": "^4.17.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "url": "https://github.com/PKwhiting/CSE341-NODE"
   }
 }
