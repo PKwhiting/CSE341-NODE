@@ -1,1 +1,8 @@
+###
 GET http://localhost:10000/contacts
+###
+GET http://localhost:10000/contacts/63c0491f9905c7fb30b1a739
+###
+GET http://localhost:10000/contacts/63c0491f9905c7fb30b1a73a
+###
+GET http://localhost:10000/contacts/63c0491f9905c7fb30b1a73b
