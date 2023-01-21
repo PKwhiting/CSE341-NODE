@@ -1,8 +1,19 @@
-###
+### Get All Contacts
 GET http://localhost:10000/contacts
-###
+### Get Single Contact
 GET http://localhost:10000/contacts/63c0491f9905c7fb30b1a739
-###
-GET http://localhost:10000/contacts/63c0491f9905c7fb30b1a73a
-###
-GET http://localhost:10000/contacts/63c0491f9905c7fb30b1a73b
+
+### Create New Contact
+POST http://localhost:10000/contacts HTTP/1.1 
+content-type: application/json
+
+{"firstName":"James", "lastName":"Bond", "email":"jbond@test.com", "favoriteColor":"Blue", "birthday":"02/21/1989"}
+
+### Update Existing Contact
+PUT http://localhost:10000/contacts/63cc3d9dcdf4f74a5467ea60 HTTP/1.1 
+content-type: application/json
+
+{"firstName":"John", "lastName":"Carter", "email":"cartier@test.com", "favoriteColor":"Black", "birthday":"11/05/1942"}
+
+### Delete Contact
+DELETE http://localhost:10000/contacts/63cc3d9dcdf4f74a5467ea60 HTTP/1.1

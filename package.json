@@ -17,6 +17,7 @@
     "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
   },
   "dependencies": {
+    "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongodb": "^4.13.0",
