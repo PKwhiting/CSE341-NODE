@@ -10,13 +10,13 @@ content-type: application/json
 {"firstName":"James", "lastName":"Bond", "email":"jbond@test.com", "favoriteColor":"Blue", "birthday":"02/21/1989"}
 
 ### Update Existing LocalHost Contact
-PUT http://localhost:10000/contacts/63cc3d9dcdf4f74a5467ea60 HTTP/1.1 
+PUT http://localhost:10000/contacts/63cc414a2da1bf2694e1efb1 HTTP/1.1 
 content-type: application/json
 
 {"firstName":"John", "lastName":"Carter", "email":"cartier@test.com", "favoriteColor":"Black", "birthday":"11/05/1942"}
 
 ### Delete LocalHost Contact
-DELETE http://localhost:10000/contacts/63cc3d9dcdf4f74a5467ea60 HTTP/1.1
+DELETE http://localhost:10000/contacts/63cc414a2da1bf2694e1efb1 HTTP/1.1
 
 
 
@@ -32,14 +32,11 @@ content-type: application/json
 {"firstName":"James", "lastName":"Bond", "email":"jbond@test.com", "favoriteColor":"Blue", "birthday":"02/21/1989"}
 
 ### Update Existing Render Contact
-PUT https://cse-341-pk.onrender.com/contacts63cc3d9dcdf4f74a5467ea60 HTTP/1.1 
+PUT https://cse-341-pk.onrender.com/contacts/63cc4219f06c9249588aa75a HTTP/1.1 
 content-type: application/json
 
 {"firstName":"John", "lastName":"Carter", "email":"cartier@test.com", "favoriteColor":"Black", "birthday":"11/05/1942"}
 
 ### Delete Render Contact
-DELETE https://cse-341-pk.onrender.com/contacts63cc3d9dcdf4f74a5467ea60 HTTP/1.1/contacts HTTP/1.1 
+DELETE https://cse-341-pk.onrender.com/contacts/63cc4219f06c9249588aa75a HTTP/1.1/contacts HTTP/1.1 
 content-type: application/json
-
-{"firstName":"James", "lastName":"Bond", "email":"jbond@test.com", "favoriteColor":"Blue", "birthday":"02/21/1989"}
-
