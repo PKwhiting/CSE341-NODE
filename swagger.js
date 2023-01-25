@@ -6,7 +6,7 @@ const doc = {
     description: 'CSE341-NODE API'
   },
   host: 'cse-341-pk.onrender.com',
-  schemes: ['https']
+  schemes: ['http']
 };
 
 const outputFile = './swagger.json';
