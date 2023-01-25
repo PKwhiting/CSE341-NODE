@@ -2,13 +2,13 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "description": "Temple API",
+    "description": "CSE341-NODE API",
     "version": "1.0.0"
   },
-  "host": "cse341-instructor.herokuapp.com",
+  "host": "cse-341-pk.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/": {
